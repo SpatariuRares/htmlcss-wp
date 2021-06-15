@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common */
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bordi{
+    border-radius: 5px;
+    overflow: hidden;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* common */
+/* header */
+
+#logo{
+    height: 100px;
+}
+nav>ul{
+    list-style: none;
+    padding: 50px 0;
+}
+nav>ul a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+nav>ul li{
+    display: inline-block;
+}
+
+/* header */
+
+
+/* main */
+.contenitore{
+    margin-bottom: 50px;
+    height: 500px;
+    position: relative;
+}
+
+.contenitore img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+
+.overlay{
+    inset: 0;
+    background-color: rgba(143, 143, 143, 0.377);
+    position: absolute;
+}
+
+.mind{
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+}
+
+.contenitor{
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.testa{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.sidebar,
+.center{
+    float: left;
+    margin-bottom: 20px;
+}
+
+.sidebar{
+    width: 20%;
+}
+.center{
+    margin: 0 10px;
+    width: calc(60%  - 20px);
+}
+
+.image{
+    position: relative;
+    height: 200px;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+   object-fit: cover;
+}
+
+.sidebar h3,
+.center h3{
+    padding: 10px 0;
+}
+/* main */
+
+footer{
+   text-align: center;
+}
+
+footer span{
+   color: red;
+
+}
