@@ -125,4 +125,6 @@ footer{
 footer span{
    color: red;
     padding-bottom: 10px;
+    font-size: 40px;
+    vertical-align: middle;
 }
