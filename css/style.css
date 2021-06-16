@@ -38,10 +38,11 @@ nav>ul{
 nav>ul a{
     text-decoration: none;
     text-transform: uppercase;
+    padding: 5px;
+    display: inline-block;
 }
 nav>ul li{
     display: inline-block;
-    padding: 0 5px;
 }
 
 /* header */
